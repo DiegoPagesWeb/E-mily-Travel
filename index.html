@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>E-mily Travel</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/World_map_-_low_resolution.svg/2048px-World_map_-_low_resolution.svg.png');
+            background-size: cover;
+            background-position: center;
+            font-family: Arial, sans-serif;
+            color: white;
+            height: 100vh;
+            position: relative;
+        }
+        .mensaje {
+            position: absolute;
+            top: 30%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 30px;
+            border-radius: 20px;
+        }
+        .marca {
+            position: absolute;
+            bottom: 10px;
+            right: 20px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .boton {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            background-color: #00bcd4;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="mensaje">
+        <h1>Hola, soy tu asesor virtual de E-mily Travel</h1>
+        <p>Estoy aquí para ayudarte a encontrar tu destino ideal.</p>
+        <button class="boton" onclick="location.href='test.html'">Aceptar</button>
+    </div>
+    <div class="marca">E-mily Travel</div>
+</body>
+</html>
